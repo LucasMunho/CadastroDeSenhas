@@ -22,10 +22,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.digiteSenhaTextField.keyboardType = .URL
         self.confirmeSenhaTextField.keyboardType = .URL
-        
         self.resultLabel.text = ""
         self.digiteSenhaTextField.layer.borderColor = UIColor.red.cgColor
-        
         self.confirmeSenhaTextField.layer.borderColor = UIColor.red.cgColor
         
 }
